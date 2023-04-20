@@ -123,6 +123,7 @@ html,
 body {
   font-family: "DM Sans", sans-serif;
   letter-spacing: -0.5px;
+  color: var(--text-color);
 }
 
 .container {
@@ -136,6 +137,7 @@ body {
   --black-border: #26292d;
   --white: #fff;
   --purple: #5c62ec;
+  --text-color: var(--black);
   --dark-bg: var(--black);
   --dark-border: var(--black-border);
   --header-text: var(--white);
@@ -198,17 +200,49 @@ body {
 }
 .header__wrapper {
   padding: 0 15px;
-  max-width: 660px;
+  max-width: 672px;
 }
 .header__title {
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 140%;
-  letter-spacing: -0.5px;
-  color: #FAFAFA;
+  color: #fafafa;
+}
+.header__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 40px;
 }
 .header__button {
+  height: 48px;
+  padding: 12px 28px;
+  border-radius: 5px;
+  background-color: var(--purple);
   color: var(--white);
+  letter-spacing: 0.15px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: opacity 0.2s ease-in;
+}
+.header__button:hover {
+  opacity: 0.8;
+}
+.header__button:active {
+  position: relative;
+  top: 1px;
+}
+
+.header__title strong {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.header__title em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+.header__text p + p {
+  margin-top: 0.5em;
 }/*# sourceMappingURL=main.css.map */

@@ -2,6 +2,7 @@ html,
 body {
   font-family: 'DM Sans', sans-serif;
   letter-spacing: -0.5px;
+  color: var(--text-color);
 }
 
 .container {
@@ -16,6 +17,7 @@ body {
   --white: #fff;
   --purple: #5c62ec;
 
+  --text-color: var(--black);
   --dark-bg: var(--black);
   --dark-border: var(--black-border);
   --header-text: var(--white);
