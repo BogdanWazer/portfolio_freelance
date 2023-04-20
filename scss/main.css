@@ -197,6 +197,10 @@ body {
   text-align: center;
   align-items: center;
   flex-direction: column;
+  background-image: url(./../img/header/main-header.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
 .header__wrapper {
   padding: 0 15px;
@@ -245,4 +249,41 @@ body {
 
 .header__text p + p {
   margin-top: 0.5em;
+}
+
+.section {
+  padding: 70px 0;
+}
+
+.title-1 {
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 30px;
+}
+
+.project {
+  max-width: 370px;
+  background-color: var(--white);
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.project__image {
+  border-radius: 10px;
+}
+.project__title {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  padding: 15px 20px 25px;
 }/*# sourceMappingURL=main.css.map */
