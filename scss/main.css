@@ -119,9 +119,26 @@ legend {
   display: block;
 }
 
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+:root {
+  --black: #171718;
+  --black-border: #171718;
+  --white: #fff;
+  --purple: #5c62ec;
+  --dark-bg: var(--black);
+  --dark-border: var(--black-border);
+  --header-text: var(--white);
+  --accent: var(--purple);
+}
+
 .nav {
-  background-color: #171718;
-  color: #fff;
+  background-color: var(--dark-bg);
+  color: var(--white);
   padding: 21px 0;
 }
 .nav__row {
@@ -139,9 +156,25 @@ legend {
   font-size: 24px;
   line-height: 100%;
 }
-
-.container {
-  max-width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
+.nav-list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-list__link {
+  font-family: "Poppins";
+  color: #fff;
+}
+.nav-list__link--active {
+  position: relative;
+}
+.nav-list__link--active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #5c62ec;
 }/*# sourceMappingURL=main.css.map */

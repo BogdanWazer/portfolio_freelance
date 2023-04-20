@@ -3,3 +3,15 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+
+:root {
+  --black: #171718;
+  --black-border: #171718;
+  --white: #fff;
+  --purple: #5c62ec;
+
+  --dark-bg: var(--black);
+  --dark-border: var(--black-border);
+  --header-text: var(--white);
+  --accent: var(--purple);
+}
