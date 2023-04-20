@@ -119,12 +119,11 @@ legend {
   display: block;
 }
 
-.navigation {
+.nav {
   background-color: #171718;
   color: #fff;
   padding: 21px 0;
 }
-
 .nav__row {
   display: flex;
   justify-content: space-between;
@@ -132,6 +131,13 @@ legend {
        column-gap: 30px;
   row-gap: 20px;
   flex-wrap: wrap;
+}
+.nav__logo {
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
 }
 
 .container {
