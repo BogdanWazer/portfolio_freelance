@@ -3,3 +3,11 @@
   color: #fff;
   padding: 21px 0;
 }
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}

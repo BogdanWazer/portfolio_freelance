@@ -22,7 +22,9 @@ a:active {
 }
 
 /* Links */
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
   /* color: inherit; */
   text-decoration: none;
   /* display: inline-block; */
@@ -34,16 +36,28 @@ a:hover {
 }
 
 /* Common */
-aside, nav, footer, header, section, main {
+aside,
+nav,
+footer,
+header,
+section,
+main {
   display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-size: inherit;
   font-weight: inherit;
 }
 
-ul, ul li {
+ul,
+ul li {
   list-style: none;
 }
 
@@ -51,7 +65,8 @@ img {
   vertical-align: top;
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
   height: auto;
 }
@@ -61,7 +76,10 @@ address {
 }
 
 /* Form */
-input, textarea, button, select {
+input,
+textarea,
+button,
+select {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -72,7 +90,8 @@ input::-ms-clear {
   display: none;
 }
 
-button, input[type=submit] {
+button,
+input[type=submit] {
   display: inline-block;
   box-shadow: none;
   background-color: transparent;
@@ -80,8 +99,10 @@ button, input[type=submit] {
   cursor: pointer;
 }
 
-input:focus, input:active,
-button:focus, button:active {
+input:focus,
+input:active,
+button:focus,
+button:active {
   outline: none;
 }
 
@@ -104,7 +125,17 @@ legend {
   padding: 21px 0;
 }
 
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
 .container {
-  width: 1170px;
+  max-width: 1200px;
   padding: 0 15px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
