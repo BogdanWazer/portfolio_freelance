@@ -119,6 +119,12 @@ legend {
   display: block;
 }
 
+html,
+body {
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: -0.5px;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -127,7 +133,7 @@ legend {
 
 :root {
   --black: #171718;
-  --black-border: #171718;
+  --black-border: #26292d;
   --white: #fff;
   --purple: #5c62ec;
   --dark-bg: var(--black);
@@ -177,4 +183,32 @@ legend {
   height: 2px;
   width: 100%;
   background-color: #5c62ec;
+}
+
+.header {
+  padding: 181px;
+  background-color: var(--dark-bg);
+  color: var(--header-text);
+  min-height: 695px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header__wrapper {
+  padding: 0 15px;
+  max-width: 660px;
+}
+.header__title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  color: #FAFAFA;
+}
+.header__button {
+  color: var(--white);
 }/*# sourceMappingURL=main.css.map */

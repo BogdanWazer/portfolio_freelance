@@ -1,0 +1,38 @@
+.header {
+  padding: 181px;
+  background-color: var(--dark-bg);
+  color: var(--header-text);
+  min-height: 695px;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+
+  // .header__wrapper
+  &__wrapper {
+    padding: 0 15px;
+    max-width: 660px;
+  }
+
+  // .header__title
+  &__title {
+	font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 140%;
+letter-spacing: -0.5px;
+color: #FAFAFA;
+  }
+
+  // .header__text
+  &__text {
+  }
+
+  // .header__button
+  &__button {
+    color: var(--white);
+  }
+}

@@ -1,3 +1,9 @@
+html,
+body {
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: -0.5px;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -6,7 +12,7 @@
 
 :root {
   --black: #171718;
-  --black-border: #171718;
+  --black-border: #26292d;
   --white: #fff;
   --purple: #5c62ec;
 
