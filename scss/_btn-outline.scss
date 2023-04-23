@@ -1,0 +1,13 @@
+.btn-outline {
+  display: flex;
+  gap: 11px;
+  height: 48px;
+  border-radius: 5px;
+  padding: 12px 20px;
+
+  border: 1px solid #000;
+  color: var(--black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}

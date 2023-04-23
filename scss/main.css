@@ -315,4 +315,42 @@ body {
 
 .copyright p + p {
   margin-top: 0.5em;
+}
+
+.project-details {
+  max-width: 865px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.project-details__img {
+  max-width: 100%;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 5px 35px rgba(0, 0, 0, 0.25));
+}
+.project-details__descr {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  margin-bottom: 30px;
+}
+
+.title-1 {
+  color: #5c62ec;
+}
+
+.btn-outline {
+  display: flex;
+  gap: 11px;
+  height: 48px;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border: 1px solid #000;
+  color: var(--black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }/*# sourceMappingURL=main.css.map */
