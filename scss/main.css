@@ -353,4 +353,17 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+}
+.btn-outline:hover {
+  opacity: 0.8;
+}
+.btn-outline:active {
+  position: relative;
+  top: 1px;
+}
+
+.title-2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
 }/*# sourceMappingURL=main.css.map */
